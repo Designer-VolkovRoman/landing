@@ -23,13 +23,12 @@
 .logo {
   width: 183px;
   height:32px;
-  
 }
+
 .logo_place_header {
   position: absolute;
   top: 30px;
-  left: 64px;
-  
+  left: 64px; 
 }
 
 .header__title {
@@ -41,8 +40,6 @@
   line-height: 96px;
   font-weight: bold;
   z-index: 12;
-  
-
 }
 
 .header__subtitle {
@@ -59,11 +56,11 @@
 .header__subtitle-link {
   text-decoration: none;
   color: #2f80ed;
+  opacity: 1;
 }
 
 .header__subtitle-link:hover {
   text-decoration: none;
-  
 }
 
 .header__main-illustration {
@@ -73,7 +70,6 @@
   bottom: 0;
   right: 0;
   z-index: 10;
-  
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
@@ -133,7 +129,6 @@
 .digits {
   display: flex;
   flex-direction: column;
-
 }
 
 .section-title {
@@ -141,8 +136,6 @@
   font-size: 60px;
   line-height: 60px;
   font-weight: 600;
-  
-  
 }
 
 .section-subtitle {
@@ -223,7 +216,16 @@
 }
 
 
-
+.kaufman {
+  height: 790px;
+  display: flex;
+  background-color: #1f1f1f;
+  overflow: hidden;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  z-index: 22;
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
@@ -231,4 +233,48 @@
   color: white;
   margin-right: 0;
   margin-top: 80px;
+  z-index: 22;
 }
+
+.table_theme_dark {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 22;
+  margin:0 auto 90px;
+}
+
+.section-title_theme_dark {
+  color:#ffffff;
+  margin:90px auto 0;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: bold;
+  z-index: 22;
+}
+
+.section-subtitle_theme_dark {
+  color:#ffffff;
+  margin: 20px auto 0;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: normal;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  top: 0;
+  right: -210px;
+  width: 877px;
+  height: 877px;
+  z-index: 1;
+}
+
+.table__text_theme_dark {
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: normal;
+}
+
+
