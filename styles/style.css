@@ -138,7 +138,7 @@
 }
 .cards__item {
   width: 240px;
-  margin-top:60px;
+  margin-top: 60px;
 }
 .cards__image {
   border-radius: 50%;
@@ -160,6 +160,8 @@
   line-height: 23px;
   font-weight: normal;
 }
+
+
 
 
 
