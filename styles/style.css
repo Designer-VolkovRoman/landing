@@ -417,6 +417,7 @@ z-index: 52;
   width: 877px;
   height: 877px;
   z-index: 1;
+  animation: rotate 20s infinite linear;
 }
 
 .table__text_theme_dark {
@@ -424,6 +425,24 @@ z-index: 52;
   line-height: 1.2;
   font-weight: normal;
 }
+
+
+
+.resources {
+  display: flex;
+  flex-direction: column;
+}
+
+.resources__logo-zone {
+  margin: 80px auto 217px;
+  width: 1100px;
+}
+
+.resources__logo {
+  width:270px;
+  height: 38px;
+}
+
 
 
 .footer {
