@@ -162,6 +162,19 @@
 }
 
 
+.video{
+  display: flex;
+  flex-direction: column;
+}
+.video__iframes{
+margin: 50px auto 0px;
+position: relative;
+z-index: 52;
+}
+.video__iframe{
+  flex-wrap: wrap;
+  margin: 0px 10px;
+}
 
 
 
